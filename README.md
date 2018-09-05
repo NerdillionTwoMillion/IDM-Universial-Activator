@@ -1,6 +1,6 @@
 # IDM-Universial-Activator
 
-As any good pirate should, I decided to help contribute by making a patch to create a license for IDM.
+As any good pirate should, I decided to help contribute by making a patch to create a license for IDM via the registry.
 
 ### How does it work?
 
@@ -19,6 +19,8 @@ it simply take the values entered into the fields and creates 3 key/value pairs 
 ### Notice
 
 This may still be buggy but there may still be some that I have not caught. If you find any please let me know.
+
+**IDMan.exe is sourced from Team Reis and is NOT my creation. The reason for this is because I dont know enough assembly to comfortably modify DLL's on my own**.
 
 ### Extras
 
