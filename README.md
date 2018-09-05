@@ -1,20 +1,22 @@
 # IDM-Universial-Activator
 
-As any good pirate should, I decided to help contribute by making a patch to create a license for IDM via the registry.
+As any good pirate should, I decided to help contribute by making a patch to create or change an existing license for IDM via the registry.
 
 ### How does it work?
 
-it simply take the values entered into the fields and creates 3 key/value pairs (FName, LName and Serial) then injects these into the registry under IDM.
+It simply take the values entered into the fields and creates 3 key/value pairs (FName, LName and Serial) then injects these into the registry under IDM.
 
 ### Instructions
 
 1) Download and install IDM.
 
-2) Open "build" folder and copy IDMan.exe to install path
+2) Open "IDM Universial Activator\Resources" folder, copy IDMan.exe to IDM install location
 
-3) Inside the "build" folder run IDM Universial Activator.exe
+3) Inside the "IDM Universial Activator\bin" folder and run "IDM Universial Activator.exe"
 
-4) IDM should now be patched.
+4) Enter in desired license details
+
+5) Click "Patch"
 
 ### Notice
 

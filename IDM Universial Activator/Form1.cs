@@ -18,6 +18,7 @@ namespace IDM_Universial_Activator
         Patch patch = new Patch();
         string characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         string serial_key = null;
+
         public Form1()
         {
             InitializeComponent();
@@ -30,17 +31,22 @@ namespace IDM_Universial_Activator
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBoxLog.AppendText("Validating input\n");
             if (!Validate())
             {
                 return;
             }
-            
+
+            textBoxLog.AppendText("Creating license object\n");
             license = new License
             {
                 FirstName = textBoxFName.Text,
                 LastName = textBoxLName.Text,
                 Serial = serial_key
             };
+
+            textBoxLog.AppendText("Adding license to registry\n");
+            textBoxLog.AppendText("Patching complete\n");
             MessageBox.Show(patch.ModifyRegEntry(license)); 
         }
 
@@ -68,6 +74,7 @@ namespace IDM_Universial_Activator
 
         private void button2_Click(object sender, EventArgs e)
         {
+            textBoxLog.AppendText("Generating serial key\n");
             Random rand = new Random();
             string key = "";
 
@@ -87,6 +94,11 @@ namespace IDM_Universial_Activator
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelLog_Click(object sender, EventArgs e)
         {
 
         }
