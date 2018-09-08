@@ -8,3 +8,13 @@ D:\Libraries\Downloads\IDM-Universial-Activator-master\IDM-Universial-Activator-
 D:\Libraries\Downloads\IDM-Universial-Activator-master\IDM-Universial-Activator-master\IDM Universial Activator\obj\Debug\IDM Universial Activator.csproj.CoreCompileInputs.cache
 D:\Libraries\Downloads\IDM-Universial-Activator-master\IDM-Universial-Activator-master\IDM Universial Activator\obj\Debug\IDM Universial Activator.exe
 D:\Libraries\Downloads\IDM-Universial-Activator-master\IDM-Universial-Activator-master\IDM Universial Activator\obj\Debug\IDM Universial Activator.pdb
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\bin\Debug\IDM Universial Activator.exe.config
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\bin\Debug\IDM Universial Activator.exe
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\bin\Debug\IDM Universial Activator.pdb
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM_Universial_Activator.Form1.resources
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM_Universial_Activator.Properties.Resources.resources
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.csproj.GenerateResource.cache
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.exe
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.pdb
+D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.csprojAssemblyReference.cache
