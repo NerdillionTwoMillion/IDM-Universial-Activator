@@ -4,21 +4,19 @@ As any good pirate should, I decided to help contribute by making a patch to cre
 
 ### Notice
 
-This may still be buggy but there may still be some that I have not caught. If you find any please let me know.
-
-**IDMan.exe is sourced from Team Reis and is NOT my creation. The reason for this is because I dont know enough assembly to comfortably modify DLL's on my own**.
+Tested and working on IDM v 6.3.1. This "patch" is intended to be "universial" meaning to working on the current major release (v6.x) of IDM.
 
 ### How does it work?
 
-It a license object made up of 3 key/value pairs (FName, LName and Serial) then injects these into the registry under IDM.
+1) license object made up of 3 key/value pairs (FName, LName and Serial) then injects these into the registry under IDM.
+
+2) The exe is patched (in place) - Kudos to [Joexv](https://github.com/Joexv) for this
 
 ### Instructions
 
-1) Download and install IDM.
+1) Download and install [IDM](https://www.internetdownloadmanager.com/).
 
-2) Open "Latest Release" folder and copy IDMan.exe to IDM install location
-
-3) Run "IDM Universial Activator.exe" to set the create a license and activate IDM
+2) Run "IDM Universial Activator.exe" to set the create a license and activate IDM
 
 ###Contact Me
 
