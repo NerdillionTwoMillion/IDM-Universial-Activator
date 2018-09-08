@@ -16,7 +16,7 @@ Tested and working on IDM v 6.3.1. This "patch" is intended to be "universial" m
 
 1) Download and install [IDM](https://www.internetdownloadmanager.com/).
 
-2)In the "bin\debug" Run "IDM Universial Activator.exe" to create the license and activate IDM
+2) In the "bin\debug" Run "IDM Universial Activator.exe" to create the license and activate IDM
 
 ### Contact Me
 
