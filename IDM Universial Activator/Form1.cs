@@ -39,13 +39,13 @@ namespace IDM_Universial_Activator
         private void button1_Click(object sender, EventArgs e)
         {
             PatchEXE();
-            textBoxLog.AppendText("Validating input\n");
+            textBoxLog.AppendText("Validating input\n\n");
             if (!Validate())
             {
                 return;
             }
 
-            textBoxLog.AppendText("Creating license object\n");
+            textBoxLog.AppendText("Creating license object\n\n");
             license = new License
             {
                 FirstName = textBoxFName.Text,
@@ -139,7 +139,7 @@ namespace IDM_Universial_Activator
             if (!File.Exists(Application.StartupPath + @"\IDMan.ips"))
                 Extract("IDM_Universial_Activator", Application.StartupPath, "Resources", "IDMan.ips");
             else
-                textBoxLog.AppendText("File already exists, using existing file...\n");
+                textBoxLog.AppendText("File already exists, using existing file...\n\n");
 
             textBoxLog.AppendText(@"Using default IDMan.exe install location C:\Program Files (x86)\Internet Download Manager" + "\n");
             string BackupFile = GetUniqueFilePath(@"C:\Program Files (x86)\Internet Download Manager\IDMan.bak");
@@ -148,7 +148,7 @@ namespace IDM_Universial_Activator
 
                 File.Copy(@"C:\Program Files (x86)\Internet Download Manager\IDMan.exe", BackupFile);
                 Patcher.Patch(Application.StartupPath + @"\IDMan.ips", @"C:\Program Files (x86)\Internet Download Manager\IDMan.exe", @"C:\Program Files (x86)\Internet Download Manager\IDMan.exe");
-                textBoxLog.AppendText("File has been patched\n");
+                textBoxLog.AppendText("File has been patched\n\n");
             }
             catch(Exception ex)
             {

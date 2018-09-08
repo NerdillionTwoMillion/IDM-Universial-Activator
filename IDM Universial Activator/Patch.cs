@@ -38,9 +38,9 @@ namespace IDM_Universial_Activator
                 return "An error occurred! " + e.ToString();
             }
 
-            if (!VerifyChanges(license))
+            if (VerifyChanges(license))
             {
-                return "Keys already exist in registry. No changes made.";
+                return "License has been verified";
             }
                 
             
