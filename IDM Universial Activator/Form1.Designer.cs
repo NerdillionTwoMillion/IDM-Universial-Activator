@@ -38,8 +38,8 @@
             this.textBoxSerial = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBoxLog = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBoxLog = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -141,18 +141,6 @@
             this.label4.Text = "By NerdillionTwoMillion";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // textBoxLog
-            // 
-            this.textBoxLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBoxLog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.textBoxLog.Location = new System.Drawing.Point(383, 97);
-            this.textBoxLog.Multiline = true;
-            this.textBoxLog.Name = "textBoxLog";
-            this.textBoxLog.ReadOnly = true;
-            this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxLog.Size = new System.Drawing.Size(271, 204);
-            this.textBoxLog.TabIndex = 12;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -162,6 +150,22 @@
             this.label5.Size = new System.Drawing.Size(33, 18);
             this.label5.TabIndex = 13;
             this.label5.Text = "Log";
+            // 
+            // textBoxLog
+            // 
+            this.textBoxLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBoxLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxLog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.textBoxLog.Location = new System.Drawing.Point(397, 122);
+            this.textBoxLog.Margin = new System.Windows.Forms.Padding(0);
+            this.textBoxLog.Multiline = true;
+            this.textBoxLog.Name = "textBoxLog";
+            this.textBoxLog.ReadOnly = true;
+            this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxLog.Size = new System.Drawing.Size(271, 204);
+            this.textBoxLog.TabIndex = 12;
+            this.textBoxLog.WordWrap = false;
+            this.textBoxLog.TextChanged += new System.EventHandler(this.textBoxLog_TextChanged);
             // 
             // Form1
             // 
@@ -202,8 +206,8 @@
         private System.Windows.Forms.TextBox textBoxSerial;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBoxLog;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBoxLog;
     }
 }
 

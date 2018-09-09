@@ -38,14 +38,14 @@ namespace IDM_Universial_Activator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PatchEXE();
-            textBoxLog.AppendText("Validating input\n\n");
+
+            AppendToLog("Validating input\n\n");
             if (!Validate())
             {
                 return;
             }
 
-            textBoxLog.AppendText("Creating license object\n\n");
+            AppendToLog("Creating license object\n\n");
             license = new License
             {
                 FirstName = textBoxFName.Text,
@@ -53,9 +53,16 @@ namespace IDM_Universial_Activator
                 Serial = serial_key
             };
 
-            textBoxLog.AppendText("Adding license to registry\n");
-            textBoxLog.AppendText("Patching complete\n");
-            MessageBox.Show(patch.ModifyRegEntry(license)); 
+            AppendToLog("Adding license to registry\n");
+            AppendToLog(patch.ModifyRegEntry(license) +"\n");
+            PatchEXE();
+            AppendToLog("Patching complete\n");
+            MessageBox.Show("IDM Activated Successfully!");
+        }
+
+        public void AppendToLog(string log)
+        {
+            textBoxLog.AppendText("---> "+log);
         }
 
         public Boolean Validate()
@@ -82,7 +89,7 @@ namespace IDM_Universial_Activator
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBoxLog.AppendText("Generating serial key\n");
+            AppendToLog("Generating serial key\n");
             Random rand = new Random();
             string key = "";
 
@@ -125,7 +132,7 @@ namespace IDM_Universial_Activator
 
         private void PatchEXE()
         {
-            textBoxLog.AppendText("Killing IDMan.exe" + "\n");
+            AppendToLog("Killing IDMan.exe" + "\n");
             try
             {
                 foreach (var process in Process.GetProcessesByName("IDMan"))
@@ -135,24 +142,24 @@ namespace IDM_Universial_Activator
             }
             catch { }
 
-            textBoxLog.AppendText("Extracting patch from embedded resources..." + "\n");
+            AppendToLog("Extracting patch from embedded resources..." + "\n");
             if (!File.Exists(Application.StartupPath + @"\IDMan.ips"))
                 Extract("IDM_Universial_Activator", Application.StartupPath, "Resources", "IDMan.ips");
             else
-                textBoxLog.AppendText("File already exists, using existing file...\n\n");
+                AppendToLog("File already exists, using existing file...\n\n");
 
-            textBoxLog.AppendText(@"Using default IDMan.exe install location C:\Program Files (x86)\Internet Download Manager" + "\n");
+            AppendToLog(@"Using default IDMan.exe install location C:\Program Files (x86)\Internet Download Manager" + "\n");
             string BackupFile = GetUniqueFilePath(@"C:\Program Files (x86)\Internet Download Manager\IDMan.bak");
             try
             {
 
                 File.Copy(@"C:\Program Files (x86)\Internet Download Manager\IDMan.exe", BackupFile);
                 Patcher.Patch(Application.StartupPath + @"\IDMan.ips", @"C:\Program Files (x86)\Internet Download Manager\IDMan.exe", @"C:\Program Files (x86)\Internet Download Manager\IDMan.exe");
-                textBoxLog.AppendText("File has been patched\n\n");
+                AppendToLog("File has been patched\n\n");
             }
             catch(Exception ex)
             {
-                textBoxLog.AppendText("Patching failed. Check exception for more details...\n");
+                AppendToLog("Patching failed. Check exception for more details...\n");
                 MessageBox.Show(ex.ToString());
             }
             File.Delete(Application.StartupPath + @"\IDMan.ips");
@@ -186,5 +193,11 @@ namespace IDM_Universial_Activator
             return filepath;
         }
         #endregion
+
+        private void textBoxLog_TextChanged(object sender, EventArgs e)
+        {
+            textBoxLog.Select(textBoxLog.Text.Length, 0);
+            textBoxLog.ScrollToCaret();
+        }
     }
 }
