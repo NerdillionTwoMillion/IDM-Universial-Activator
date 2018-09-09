@@ -40,6 +40,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxLog = new System.Windows.Forms.TextBox();
+            this.buttonExit = new System.Windows.Forms.Button();
+            this.buttonAbout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -126,13 +128,13 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(337, 32);
             this.label6.TabIndex = 10;
-            this.label6.Text = "IDM 6.x Universial Patcher";
+            this.label6.Text = "IDM 6.x Universial Activator";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label4.Location = new System.Drawing.Point(160, 44);
             this.label4.Name = "label4";
@@ -145,7 +147,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label5.Location = new System.Drawing.Point(496, 76);
+            this.label5.Location = new System.Drawing.Point(503, 93);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 18);
             this.label5.TabIndex = 13;
@@ -162,17 +164,43 @@
             this.textBoxLog.Name = "textBoxLog";
             this.textBoxLog.ReadOnly = true;
             this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxLog.Size = new System.Drawing.Size(271, 204);
+            this.textBoxLog.Size = new System.Drawing.Size(271, 192);
             this.textBoxLog.TabIndex = 12;
             this.textBoxLog.WordWrap = false;
             this.textBoxLog.TextChanged += new System.EventHandler(this.textBoxLog_TextChanged);
+            // 
+            // buttonExit
+            // 
+            this.buttonExit.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.buttonExit.Location = new System.Drawing.Point(576, 330);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(75, 51);
+            this.buttonExit.TabIndex = 14;
+            this.buttonExit.Text = "Exit";
+            this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            // 
+            // buttonAbout
+            // 
+            this.buttonAbout.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.buttonAbout.Location = new System.Drawing.Point(495, 330);
+            this.buttonAbout.Name = "buttonAbout";
+            this.buttonAbout.Size = new System.Drawing.Size(75, 51);
+            this.buttonAbout.TabIndex = 15;
+            this.buttonAbout.Text = "About";
+            this.buttonAbout.UseVisualStyleBackColor = false;
+            this.buttonAbout.Click += new System.EventHandler(this.buttonAbout_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(677, 353);
+            this.ClientSize = new System.Drawing.Size(677, 393);
+            this.Controls.Add(this.buttonAbout);
+            this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBoxLog);
             this.Controls.Add(this.label4);
@@ -187,7 +215,7 @@
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
-            this.Text = "IDM 6.x Universial Patcher";
+            this.Text = "IDM 6.x Universial Activator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -208,6 +236,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBoxLog;
+        private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.Button buttonAbout;
     }
 }
 

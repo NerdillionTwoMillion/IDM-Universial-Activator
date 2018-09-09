@@ -199,5 +199,19 @@ namespace IDM_Universial_Activator
             textBoxLog.Select(textBoxLog.Text.Length, 0);
             textBoxLog.ScrollToCaret();
         }
+
+        private void buttonAbout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("As a pirate I am very paranoid about using cracks so I decided to develop my own " +
+                "and make the codebase as transparant as possible for other paranoid pirates without giving too much away for copyright-trolls.\n\n" +
+                "This SHOULD work \"universially\" meaning this will activate any version of IDM <= 6.x^ without the need to find a new activator.\n\n" +
+                "I hope you find this useful!\n\n" +
+                "With Love - NerdillionTwoMillion");
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
