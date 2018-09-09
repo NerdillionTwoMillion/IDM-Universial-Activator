@@ -1,10 +1,8 @@
 # IDM-Universial-Activator
 
-As any good pirate should, I decided to help contribute by making a patch to create or change an existing license for IDM via the registry.
+As a pirate I am very paranoid about using cracks so I decided to develop my own and make the codebase as transparant as possible for other paranoid pirates without giving too much away for copyright-trolls.
 
-### Notice
-
-Tested and working on IDM v 6.3.1. This "patch" is intended to be "universial" meaning to working on the current major release (v6.x) of IDM.
+This SHOULD work "universially" meaning this will activate any version of IDM <= 6.x^ without the need to find a new activator.
 
 ### How does it work?
 
@@ -21,10 +19,6 @@ Tested and working on IDM v 6.3.1. This "patch" is intended to be "universial" m
 ### Contact Me
 
 My email is nerdilliontwomillion@protonmail.com or hit me up on [Reddit](https://www.reddit.com/user/NerdillionTwoMillion)
-
-### Extras
-
-Please feel free to clone this project and make it your own.
 
 
 
