@@ -18,3 +18,13 @@ D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM 
 D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.exe
 D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.pdb
 D:\Dev\Projects\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.csprojAssemblyReference.cache
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\bin\Debug\IDM Universial Activator.exe.config
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\bin\Debug\IDM Universial Activator.exe
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\bin\Debug\IDM Universial Activator.pdb
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.csprojAssemblyReference.cache
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM_Universial_Activator.Form1.resources
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM_Universial_Activator.Properties.Resources.resources
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.csproj.GenerateResource.cache
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.csproj.CoreCompileInputs.cache
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.exe
+C:\Users\Keil\Desktop\IDM-Universial-Activator\IDM Universial Activator\obj\Debug\IDM Universial Activator.pdb

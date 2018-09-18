@@ -29,8 +29,10 @@ namespace IDM_Universial_Activator
                 // Set key/value pairs if they dont exist
                     downloadManager.SetValue("FName", license.FirstName);               
                 
-                    downloadManager.SetValue("LName", license.LastName);              
-                
+                    downloadManager.SetValue("LName", license.LastName);
+
+                    downloadManager.SetValue("Email", "nerdy@nerd.com");
+
                     downloadManager.SetValue("Serial", license.Serial);
             }
             catch(Exception e)
