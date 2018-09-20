@@ -1,6 +1,6 @@
 # IDM-Universial-Activator
 
-As a pirate I am very paranoid about using cracks so I decided to develop my own and make the codebase as transparant as possible for other paranoid pirates without giving too much away for copyright-trolls.
+As a pirate I am very paranoid about using cracks so I decided to develop my own and make the codebase as transparent as possible for other paranoid pirates without giving too much away for copyright-trolls.
 
 This SHOULD work "universially" meaning this will activate any version of IDM <= 6.x^ without the need to find a new activator.
 
